@@ -1,13 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { connect } from 'react-redux';
+import { changeAppName } from './store/dispatch';
+import Button from './Core/Button';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h1>React Component</h1>
+      <h1>React Component: {props.store.appName}</h1>
       <i className='fa fa-chevron-right'></i>
-    </div>
+      <Button onClick={() => props.changeName('Angular Js')}>Change Name</Button>
+    </div >
   );
 }
 
-export default App;
+function mapStateToProps(state) {
+  return ({
+    store: state
+  })
+}
+
+const mapDispatchToState = {
+  changeName: changeAppName
+}
+
+export default connect(mapStateToProps, mapDispatchToState)(App);
