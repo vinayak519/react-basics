@@ -10,3 +10,7 @@ git push -u origin main
 git remote add origin https://github.com/vinayak519/test.git
 git branch -M main
 git push -u origin main
+
+API Details: 444fa6ebe478b848e1cc64bb7b45d029
+
+Access Token: eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NDRmYTZlYmU0NzhiODQ4ZTFjYzY0YmI3YjQ1ZDAyOSIsInN1YiI6IjY1YTM3NDBhYTM0OTExMDEyZDBhMTU4MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.OOltbxgmy0bXIUxIOGC-BluTKRc7c92wwmRWJI1rLEE

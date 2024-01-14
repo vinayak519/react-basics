@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+sup{
+  background-color: #2a2a2a;
+  color: #ffffff;
+  padding: 2px 10px;
+}
+
+.card-image{
+  width: 100%;
+  height: auto;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.card-body{
+  padding: 10px 10px;
+}
+
+.table tr,
+.table tbody,
+.table td{
+  width: 100% !important;
+}
+
+.copyright{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+/* SLIDER CSS OVERRIDE */
+/* .react-slideshow-container{
+  height: auto !important;
+}
+
+.react-slideshow-container .default-nav svg{
+  width: 20px !important;
+} */
